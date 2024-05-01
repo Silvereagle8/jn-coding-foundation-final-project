@@ -1,0 +1,108 @@
+/* Main Content */
+.main-content {
+    background-color: #25272D;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.main-content > .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+.main-content > .right-content {
+    width: 100%;
+}
+
+/* The first info text */
+.main-content > .left-content > .info-text {
+    font-size: 3rem;
+    padding: 50px 30px 8px 60px;
+    color: #D9D9DB;
+    font-family: Sans-Serif;
+    font-weight: 100;
+}
+
+/* The bold part of the info text */
+.main-content > .left-content > .info-text > .bold{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+/* The second info text */
+.main-content > .left-content > .second-info-text {
+    font-size: 2.5rem;
+    padding: 8px 30px 8px 60px;
+    color: #ACAEA8;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+/* BUTTONS */
+.main-content > .left-content > .buttons {
+    padding-left: 60px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+/* sign up button */
+.main-content > .left-content > .buttons > .sign-up-button button {
+    font-size: 2.5rem;
+    padding: 16px 30px 16px 30px;
+    background-color: #4BCE79;
+    border-color: #4BCE79;
+    border-width: 1px;
+    width: 100%;
+    height: 110%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* learn more button */
+.main-content > .left-content > .buttons > .learn-more-button button {
+    font-size: 2.5rem;
+    margin-left: 60px;
+    padding: 16px 30px 16px 30px;
+    background-color: #111111;
+    border-color: black;
+    border-width: 1px;
+    width: 100%;
+    height: 110%;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Logo Container*/
+.main-content > .right-content > .code-img {
+    display: flex;
+    justify-content: right;
+}
+/* Logo Image */
+.main-content > .right-content > .code-img img {
+    width: 70%;
+}
+
+/* CodePen Projects link above the image */
+.main-content > .right-content > .projects-link {
+    font-size: 1.4rem;
+    padding: 80px 40% 16px 16px;
+    display: flex;
+    justify-content: right;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main-content > .right-content > .projects-link a {
+    padding-left: 5px;
+    color: #72D6F5;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}

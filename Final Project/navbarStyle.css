@@ -1,0 +1,148 @@
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar {
+    background-color: black;
+    margin: 0%;
+    padding: 5px 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Containers */
+.navbar > .left-nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.navbar > .right-nav{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/* Right Nav */
+/* The Create, Search, Log in, and Sign Up buttons */
+
+/* Container */
+.get-started-buttons {
+    padding-left: 40px;
+    font-size: 20px;
+    margin: 5px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Buttons */
+.get-started-buttons > button {
+  font-size: 1.1rem;
+  padding: 16px 30px 16px 30px;
+  background-color: #36383F;
+  border-color: #36383F;
+  border-width: 1px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+/* Text for all the buttons */
+.nav-button-text {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* search icon */
+.get-started-buttons > .search i {
+  font-size: 1.8rem;
+  color: #7B7E8B;
+}
+/* Create Button Chevron */
+#down-chevron-create-btn {
+  color: #49C876;
+  font-size: 1.3rem;
+}
+
+
+/* Left Nav */
+
+/* Logo */
+.logoImg {
+  padding: 1.3%;
+  width: 20%;
+}
+
+/* Left nav link container */
+.nav-links > .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+/* Nav link text for Pens, Projects, Posts, and Collections */
+.nav-links > .buttons > a > .nav-link {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0%;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+/* Nav link*/
+.nav-links > .buttons > a{
+    text-decoration: none;
+}
+/* Explore link */
+.nav-links > .explore {
+    width: 16%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+/* Explore text */
+.nav-links > .explore > .nav-link {
+  color: #EEDF85;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Spark Button */
+
+/* spark container */
+.nav-links > .buttons > .sparkBox {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15px;
+}
+/* spark text */
+.nav-links > .buttons > .sparkBox > .spark-text {
+  color: #9EA8A9;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin: 2px;
+}
+/* spark down chevron */
+.nav-links > .buttons > .sparkBox > .down-chevron {
+  color: #CACACA;
+  margin: 2px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.7rem;
+  padding-left: 11px;
+}

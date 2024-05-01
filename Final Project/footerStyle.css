@@ -1,0 +1,38 @@
+/* Button Container */
+.footer > .button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Buttons */
+.footer > .button-container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36383F;
+    width: 100%;
+    height: 70px;
+    border-color: #676767;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* Button Text */
+.footer-button-text {
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+/* Bold Part of the text insid the buttons */
+.footer-button-text > .bold {
+    display: inline;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+/* Below the buttons */
+body {
+    background-color: #191A1D;
+}
